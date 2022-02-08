@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44B96B227B208010061022C /* FloppyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44B96B127B208010061022C /* FloppyApp.swift */; };
+		A44B96B427B208010061022C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44B96B327B208010061022C /* ContentView.swift */; };
+		A44B96B627B208030061022C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44B96B527B208030061022C /* Assets.xcassets */; };
+		A44B96B927B208030061022C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44B96B827B208030061022C /* Preview Assets.xcassets */; };
+		A44B96C327B208030061022C /* FloppyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44B96C227B208030061022C /* FloppyTests.swift */; };
+		A44B96CD27B208030061022C /* FloppyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44B96CC27B208030061022C /* FloppyUITests.swift */; };
+		A44B96CF27B208030061022C /* FloppyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44B96CE27B208030061022C /* FloppyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A44B96BF27B208030061022C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44B96A627B208000061022C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44B96AD27B208010061022C;
+			remoteInfo = Floppy;
+		};
+		A44B96C927B208030061022C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44B96A627B208000061022C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44B96AD27B208010061022C;
+			remoteInfo = Floppy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A44B96AE27B208010061022C /* Floppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44B96B127B208010061022C /* FloppyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyApp.swift; sourceTree = "<group>"; };
+		A44B96B327B208010061022C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A44B96B527B208030061022C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44B96B827B208030061022C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A44B96BE27B208030061022C /* FloppyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44B96C227B208030061022C /* FloppyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyTests.swift; sourceTree = "<group>"; };
+		A44B96C827B208030061022C /* FloppyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44B96CC27B208030061022C /* FloppyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyUITests.swift; sourceTree = "<group>"; };
+		A44B96CE27B208030061022C /* FloppyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A44B96AB27B208010061022C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44B96BB27B208030061022C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44B96C527B208030061022C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44B96A527B208000061022C = {
+			isa = PBXGroup;
+			children = (
+				A44B96B027B208010061022C /* Floppy */,
+				A44B96C127B208030061022C /* FloppyTests */,
+				A44B96CB27B208030061022C /* FloppyUITests */,
+				A44B96AF27B208010061022C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A44B96AF27B208010061022C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44B96AE27B208010061022C /* Floppy.app */,
+				A44B96BE27B208030061022C /* FloppyTests.xctest */,
+				A44B96C827B208030061022C /* FloppyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44B96B027B208010061022C /* Floppy */ = {
+			isa = PBXGroup;
+			children = (
+				A44B96B127B208010061022C /* FloppyApp.swift */,
+				A44B96B327B208010061022C /* ContentView.swift */,
+				A44B96B527B208030061022C /* Assets.xcassets */,
+				A44B96B727B208030061022C /* Preview Content */,
+			);
+			path = Floppy;
+			sourceTree = "<group>";
+		};
+		A44B96B727B208030061022C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A44B96B827B208030061022C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A44B96C127B208030061022C /* FloppyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A44B96C227B208030061022C /* FloppyTests.swift */,
+			);
+			path = FloppyTests;
+			sourceTree = "<group>";
+		};
+		A44B96CB27B208030061022C /* FloppyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A44B96CC27B208030061022C /* FloppyUITests.swift */,
+				A44B96CE27B208030061022C /* FloppyUITestsLaunchTests.swift */,
+			);
+			path = FloppyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44B96AD27B208010061022C /* Floppy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44B96D227B208030061022C /* Build configuration list for PBXNativeTarget "Floppy" */;
+			buildPhases = (
+				A44B96AA27B208010061022C /* Sources */,
+				A44B96AB27B208010061022C /* Frameworks */,
+				A44B96AC27B208010061022C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Floppy;
+			productName = Floppy;
+			productReference = A44B96AE27B208010061022C /* Floppy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A44B96BD27B208030061022C /* FloppyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44B96D527B208030061022C /* Build configuration list for PBXNativeTarget "FloppyTests" */;
+			buildPhases = (
+				A44B96BA27B208030061022C /* Sources */,
+				A44B96BB27B208030061022C /* Frameworks */,
+				A44B96BC27B208030061022C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44B96C027B208030061022C /* PBXTargetDependency */,
+			);
+			name = FloppyTests;
+			productName = FloppyTests;
+			productReference = A44B96BE27B208030061022C /* FloppyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A44B96C727B208030061022C /* FloppyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44B96D827B208030061022C /* Build configuration list for PBXNativeTarget "FloppyUITests" */;
+			buildPhases = (
+				A44B96C427B208030061022C /* Sources */,
+				A44B96C527B208030061022C /* Frameworks */,
+				A44B96C627B208030061022C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44B96CA27B208030061022C /* PBXTargetDependency */,
+			);
+			name = FloppyUITests;
+			productName = FloppyUITests;
+			productReference = A44B96C827B208030061022C /* FloppyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44B96A627B208000061022C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A44B96AD27B208010061022C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A44B96BD27B208030061022C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A44B96AD27B208010061022C;
+					};
+					A44B96C727B208030061022C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A44B96AD27B208010061022C;
+					};
+				};
+			};
+			buildConfigurationList = A44B96A927B208000061022C /* Build configuration list for PBXProject "Floppy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A44B96A527B208000061022C;
+			productRefGroup = A44B96AF27B208010061022C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44B96AD27B208010061022C /* Floppy */,
+				A44B96BD27B208030061022C /* FloppyTests */,
+				A44B96C727B208030061022C /* FloppyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A44B96AC27B208010061022C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44B96B927B208030061022C /* Preview Assets.xcassets in Resources */,
+				A44B96B627B208030061022C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44B96BC27B208030061022C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44B96C627B208030061022C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44B96AA27B208010061022C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44B96B427B208010061022C /* ContentView.swift in Sources */,
+				A44B96B227B208010061022C /* FloppyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44B96BA27B208030061022C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44B96C327B208030061022C /* FloppyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44B96C427B208030061022C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44B96CF27B208030061022C /* FloppyUITestsLaunchTests.swift in Sources */,
+				A44B96CD27B208030061022C /* FloppyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A44B96C027B208030061022C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44B96AD27B208010061022C /* Floppy */;
+			targetProxy = A44B96BF27B208030061022C /* PBXContainerItemProxy */;
+		};
+		A44B96CA27B208030061022C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44B96AD27B208010061022C /* Floppy */;
+			targetProxy = A44B96C927B208030061022C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A44B96D027B208030061022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A44B96D127B208030061022C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A44B96D327B208030061022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Floppy/Preview Content\"";
+				DEVELOPMENT_TEAM = AK49S5GNUR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.ploppyfenis.Floppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A44B96D427B208030061022C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Floppy/Preview Content\"";
+				DEVELOPMENT_TEAM = AK49S5GNUR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.ploppyfenis.Floppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A44B96D627B208030061022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK49S5GNUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.ploppyfenis.FloppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floppy.app/Floppy";
+			};
+			name = Debug;
+		};
+		A44B96D727B208030061022C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK49S5GNUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.ploppyfenis.FloppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floppy.app/Floppy";
+			};
+			name = Release;
+		};
+		A44B96D927B208030061022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK49S5GNUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.ploppyfenis.FloppyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Floppy;
+			};
+			name = Debug;
+		};
+		A44B96DA27B208030061022C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK49S5GNUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.ploppyfenis.FloppyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Floppy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A44B96A927B208000061022C /* Build configuration list for PBXProject "Floppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44B96D027B208030061022C /* Debug */,
+				A44B96D127B208030061022C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44B96D227B208030061022C /* Build configuration list for PBXNativeTarget "Floppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44B96D327B208030061022C /* Debug */,
+				A44B96D427B208030061022C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44B96D527B208030061022C /* Build configuration list for PBXNativeTarget "FloppyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44B96D627B208030061022C /* Debug */,
+				A44B96D727B208030061022C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44B96D827B208030061022C /* Build configuration list for PBXNativeTarget "FloppyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44B96D927B208030061022C /* Debug */,
+				A44B96DA27B208030061022C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A44B96A627B208000061022C /* Project object */;
+}
